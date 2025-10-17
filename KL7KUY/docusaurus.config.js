@@ -129,8 +129,8 @@ const config = {
                 to: '/docs/ham_radio_projects',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Antenna Projects',
+                to: '/docs/antenna-projects',
               },
             ],
           },
