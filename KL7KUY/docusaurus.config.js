@@ -30,7 +30,7 @@ const config = {
   projectName: 'kl7kuy-www',
 
   // Handle broken links and anchors
-  onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow build to complete
+  onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
 
