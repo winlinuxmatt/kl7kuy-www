@@ -19,8 +19,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/about">
+            About Me - 5min ⏱️
+          </Link>
+        </div>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/ham_radio_projects">
+            Ham Radio Projects - 5min ⏱️
           </Link>
         </div>
       </div>
