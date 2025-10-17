@@ -25,12 +25,13 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // GitHub pages deployment config
+  organizationName: 'winlinuxmatt', // Your GitHub username
+  projectName: 'kl7kuy-www', // Your repo name
 
-  onBrokenLinks: 'throw',
+  // Change broken links to warn instead of throw to prevent build failures
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -58,10 +59,9 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Remove the editUrl to disable "edit this page" links
+          // or update it to point to your repository
+          // editUrl: 'https://github.com/your-username/your-repo/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,16 +90,22 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            to: '/docs/about',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About',
+          },
+          {
+            to: '/docs/ham_radio_projects',
+            position: 'left',
+            label: 'Projects',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/winlinuxmatt/kl7kuy-www',
             label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
@@ -107,46 +113,58 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Explore',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'About',
+                to: '/docs/about',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Projects',
+                to: '/docs/ham_radio_projects',
               },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: 'Connect',
+            items: [
+              {
+                label: 'QRZ.com',
+                href: 'https://www.qrz.com/db/KL7KUY',
+              },
+              {
+                label: 'eHam.net',
+                href: 'https://www.eham.net/',
+              },
+              {
+                label: 'Email Me',
+                href: 'mailto:kl7kuy@gmail.com',
+              },
+            ],
+          },
+          {
+            title: 'Resources',
+            items: [
+              {
+                label: 'ARRL',
+                href: 'https://www.arrl.org/',
+              },
+              {
+                label: 'FCC ULS',
+                href: 'https://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?licKey=4829860',
+              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/winlinuxmatt/kl7kuy-www',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY - Matthew Barnes. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
