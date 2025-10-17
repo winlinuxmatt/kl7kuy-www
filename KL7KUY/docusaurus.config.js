@@ -169,7 +169,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY - Matthew Barnes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY - Matthew Barnes. Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -15,8 +15,8 @@ sidebar_position: 1
 
 ## Antennas
 - **Buckmaster OCF Dipole (DX-OCF-HP)**
-  - Bands: 80m-10m
-  - Power: 1500W PEP
+  - Bands: 80m-6m
+  - Power: 3000W PEP
   - Height: ~35ft
 
 - **Chameleon MPAS 2.0 (Portable)**
@@ -27,7 +27,7 @@ sidebar_position: 1
 ## Accessories
 - **Antenna Tuner**: MAT-Y200
 - **Power Supply**: BTECH RPS-30PRO
-- **Coax**: KMR 400 (100ft)
+- **Coax**: KMR 400 (200ft)
 - **Battery Backup**: XZNY 12V 20Ah LiFePO4
 
 ## Digital Modes
@@ -36,4 +36,4 @@ sidebar_position: 1
 - **FLDigi** for PSK31, RTTY
 
 ## Station View
-[Add a photo of your HF setup here]
+![My HF Station Setup](/img/station_rig.jpg)

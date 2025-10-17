@@ -33,6 +33,7 @@ const sidebars = {
         'station/hf-setup',
         'station/vhf-uhf-setup',
         'station/portable-setup',
+        'antenna_projects',
       ],
     },
     {
