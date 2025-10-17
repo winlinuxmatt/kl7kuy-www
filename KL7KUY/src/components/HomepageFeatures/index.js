@@ -4,35 +4,65 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'VHF/UHF Operations',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Full VHF/UHF station featuring Yaesu FTM-500DR, ICOM ID-52A, and DMR hotspot.
+        Active on local repeaters, APRS, and satellite operations.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'HF DX Station',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Yaesu FT-710 Field station with Buckmaster OCF dipole and 40m-10m coverage.
+        Specializing in SSB, CW, and digital modes for worldwide DX.
       </>
     ),
   },
+  {
+    title: 'Portable Operations',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        SOTA, POTA, and field day enthusiast. Lightweight setup with Xiegu G90,
+        portable antennas, and battery power for remote activations.
+      </>
+    ),
+  },
+  {
+    title: 'Digital Modes',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Active in FT8, JS8Call, and WSPR. Using WSJT-X, GridTracker, and 
+        FLdigi for digital communications and propagation analysis.
+      </>
+    ),
+  },
+  {
+    title: 'Antenna Projects',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        Homebrew antenna construction including EFHW, yagis, and magnetic loops.
+        Experimenting with NVIS configurations for regional communications.
+      </>
+    ),
+  },
+  {
+    title: 'Emergency Comms',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        ARES/RACES certified operator. Equipped with emergency power solutions
+        and portable setups for disaster response communications.
+      </>
+    ),
+  }
 ];
 
 function Feature({Svg, title, description}) {
