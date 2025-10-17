@@ -48,7 +48,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Homebrew antenna construction including EFHW, yagis, and magnetic loops.
+        Homebrew antenna construction including <a href="/docs/antenna-projects">EFHW, yagis, and magnetic loops</a>.
         Experimenting with NVIS configurations for regional communications.
       </>
     ),

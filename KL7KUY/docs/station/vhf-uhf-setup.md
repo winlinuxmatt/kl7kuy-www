@@ -40,7 +40,7 @@ sidebar_position: 2
 
 ## Repeaters
 - **Local Repeaters**:
-  - 146.760- (100.0) - W7SPF (Simplex)
+  - 146.760 (-) W7SP
   - [Add your local repeaters here]
 
 ## Digital Modes

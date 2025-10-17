@@ -4,7 +4,7 @@ title: About KL7KUY
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="https://ui-avatars.com/api/?name=KL7KUY&background=0D8ABC&color=fff&size=200" alt="KL7KUY Profile" style={{borderRadius: '50%', marginBottom: '1rem'}}/>
+  <img src="/img/profile.jpg" alt="KL7KUY Profile" style={{borderRadius: '50%', marginBottom: '1rem', width: '200px', height: '200px', objectFit: 'cover'}}/>
   <h1>KL7KUY - Matthew Barnes</h1>
   <p>Amateur Radio Operator - General Class</p>
   <div style={{display: 'flex', justifyContent: 'center', gap: '1rem', margin: '1rem 0'}}>
@@ -53,7 +53,7 @@ title: About KL7KUY
 ### HF Station
 - **Transceiver**: Yaesu FT-710 Field
 - **Antennas**:
-  - Buckmaster OCF Dipole (DX-OCF-HP) - 80m-10m
+  - Buckmaster OCF Dipole (DX-OCF-HP) - 80m-6m
   - Chameleon MPAS 2.0 (Portable)
   - LDG Electronics RU-9:1 Unun (Portable)
 - **Tuner**: MAT-Y200
@@ -92,7 +92,7 @@ title: About KL7KUY
 - **eQSL**: KL7KUY
 - **LoTW**: KL7KUY
 - **QSL via**: Direct or Bureau
-- **QSL Manager**: N/A
+- **QSL Manager**: eQSL.cc
 
 ## Contact Information
 - **Email**: [kl7kuy@gmail.com](mailto:kl7kuy@gmail.com)

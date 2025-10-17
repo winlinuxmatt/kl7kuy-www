@@ -30,7 +30,7 @@ const config = {
   projectName: 'kl7kuy-www',
 
   // Handle broken links and anchors
-  onBrokenLinks: 'warn', // Changed from 'throw' to 'warn' to allow build to complete
+  onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
 
@@ -129,8 +129,8 @@ const config = {
                 to: '/docs/ham_radio_projects',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Antenna Projects',
+                to: '/docs/antenna-projects',
               },
             ],
           },
@@ -169,7 +169,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY - Matthew Barnes. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KL7KUY - Matthew Barnes. Built with <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.`,
       },
       prism: {
         theme: prismThemes.github,
