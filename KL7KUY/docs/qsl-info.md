@@ -43,10 +43,9 @@ I've chosen to use only electronic QSL confirmations for several reasons:
 
 ## Alternative Electronic Logging
 
-While I primarily use eQSL.cc, you can also find my QSOs on:
+I also use the following electronic logging services:
+- **LoTW**: [ARRL Logbook of the World](https://lotw.arrl.org/) - KL7KUY
 - **QRZ Logbook**: [KL7KUY on QRZ](https://www.qrz.com/db/KL7KUY)
-
-**Note**: I do not participate in ARRL's Logbook of the World (LoTW) at this time.
 
 ## Questions?
 

@@ -89,7 +89,8 @@ title: About KL7KUY
 - **ARRL Member**
 
 ## QSL Information
-- **eQSL**: KL7KUY (Primary - eQSL only, no physical cards)
+- **eQSL**: KL7KUY (Electronic only - no physical cards)
+- **LoTW**: KL7KUY
 - **QRZ Logbook**: KL7KUY
 - **Physical QSL Cards**: Not accepted or sent
 
