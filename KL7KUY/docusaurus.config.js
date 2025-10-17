@@ -48,10 +48,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Remove routeBasePath to use the default /docs/ path
+          // Remove the editUrl to disable "edit this page" links
+          // or update it to point to your repository
+          // editUrl: 'https://github.com/your-username/your-repo/tree/main/',
         },
         blog: {
           showReadingTime: true,
