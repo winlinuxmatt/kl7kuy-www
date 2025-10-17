@@ -1,47 +1,55 @@
 ---
-sidebar_position: 1
+title: Ham Radio Projects
+sidebar_position: 3
 ---
 
-# Tutorial Intro
+# Ham Radio Projects
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to my ham radio projects page! Here you'll find documentation for my various amateur radio projects, including antenna builds, station upgrades, and portable operating setups.
 
-## Getting Started
+## Current Projects
 
-Get started by **creating a new site**.
+### 1. Portable HF Antenna System
+- **Goal**: Create a lightweight, multi-band HF antenna for SOTA/POTA operations
+- **Components**:
+  - Chameleon MPAS 2.0
+  - LDG Electronics RU-9:1 Unun
+  - 28.5' and 16.5' radiator elements
+- **Status**: In Progress
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### 2. APRS Digipeater
+- **Goal**: Set up a low-power APRS digipeater for local coverage
+- **Components**:
+  - Baofeng UV-5R
+  - Mobilinkd TNC3
+  - Raspberry Pi Zero W
+- **Status**: Planning Phase
 
-### What you'll need
+## Completed Projects
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### 1. Homebrew J-Pole Antenna
+- **Purpose**: 2m/70cm dual-band vertical
+- **Materials**: 1/2" copper pipe, N-connector, RG-8X coax
+- **Performance**: 1.2:1 SWR on 2m, 1.5:1 on 70cm
 
-## Generate a new site
+### 2. Portable Go-Kit
+- **Contents**:
+  - Xiegu G90
+  - Bioenno 20Ah LiFePO4 battery
+  - Chameleon Antenna setup
+  - Portable mast and guy lines
 
-Generate a new Docusaurus site using the **classic template**.
+## Future Projects
 
-The classic template will automatically be added to your project after you run the command:
+- [ ] 6m Yagi antenna build
+- [ ] Remote HF station setup
+- [ ] Digital modes interface for FT-710
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Resources
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- [ARRL Project Ideas](https://www.arrl.org/project-ideas)
+- [QRP Labs](https://qrp-labs.com/)
+- [Ham Radio 2.0 Projects](https://www.youtube.com/user/hamradiocom)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+---
+*Last updated: October 2023*

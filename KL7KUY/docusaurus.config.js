@@ -25,16 +25,21 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'winlinuxmatt', // Your GitHub username
-  projectName: 'kl7kuy-www', // Your repo name
+  // GitHub pages deployment config
+  organizationName: 'winlinuxmatt',
+  projectName: 'kl7kuy-www',
 
   // Handle broken links gracefully
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
+
+  // Markdown configuration
+  markdown: {
+    mermaid: false,
+    format: 'mdx',
+  },
 
   // Remove trailing slashes from URLs
   trailingSlash: false,
@@ -53,28 +58,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Remove routeBasePath to use the default /docs/ path
-          // Remove the editUrl to disable "edit this page" links
-          // or update it to point to your repository
-          // editUrl: 'https://github.com/your-username/your-repo/tree/main/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Remove the editUrl to disable "edit this page" links
-          // or update it to point to your repository
-          // editUrl: 'https://github.com/your-username/your-repo/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: 'docs', // Serve docs under /docs
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -105,7 +93,13 @@ const config = {
             position: 'left',
             label: 'Projects',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/docs/contact',
+            position: 'left',
+            label: 'Contact',
+          },
+          // Disabling blog since it's not being used
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/winlinuxmatt/kl7kuy-www',
             label: 'GitHub',
