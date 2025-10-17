@@ -48,18 +48,10 @@ sidebar_position: 5
 - **Facebook**: [Your Facebook profile]
 - **Instagram**: [@YourHandle]
 
-## Mailing Address
-For paper QSL cards or other correspondence:
-
-```
-Matthew Barnes - KL7KUY
-[Your Mailing Address]
-[City, State ZIP]
-USA
-```
-
 ## QSL Information
-See the [QSL Info](/docs/qsl-info) page for details about confirming our contacts.
+**I only use electronic QSL confirmations via eQSL.cc - no physical cards.**
+
+See the [QSL Info](/docs/qsl-info) page for details about confirming our contacts electronically.
 
 ## Contact Form
 [You can add a contact form here if you set one up with a service like Formspree or Netlify Forms]

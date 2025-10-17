@@ -5,78 +5,52 @@ sidebar_position: 4
 
 # QSL Information
 
-## QSL Methods
+## QSL Policy
 
-### Electronic QSL (Preferred)
-- **eQSL.cc**: [KL7KUY on eQSL](https://www.eqsl.cc/)
-- **LoTW**: [ARRL Logbook of the World](https://lotw.arrl.org/)
+**I only use electronic QSL confirmations via eQSL.cc. I do not send or accept physical QSL cards.**
+
+## Electronic QSL
+
+### eQSL.cc (Primary Method)
+- **Profile**: [KL7KUY on eQSL.cc](https://www.eqsl.cc/qslcard/Index.cfm?ReferralID=KL7KUY)
+- **Status**: Active and checked regularly
+- **Confirmation**: All QSOs are uploaded and confirmed via eQSL
+- **Response Time**: Usually within 24-48 hours of QSO
+
+### How to Confirm Our QSO
+1. Visit [eQSL.cc](https://www.eqsl.cc/)
+2. Log in to your account (or create one if you don't have one)
+3. Upload your log or manually enter our QSO details
+4. I'll confirm the contact via eQSL
+
+### QSL Request Information
+When requesting a QSL confirmation, please ensure your log includes:
+- **Call Sign**: KL7KUY
+- **Date**: UTC date of contact
+- **Time**: UTC time of contact
+- **Band**: Frequency band used
+- **Mode**: SSB, CW, FT8, etc.
+- **Signal Report**: RST sent/received
+
+## Why eQSL Only?
+
+I've chosen to use only electronic QSL confirmations for several reasons:
+- **Environmental**: Reduces paper waste and carbon footprint from mailing
+- **Speed**: Instant confirmation vs. weeks or months for paper cards
+- **Cost**: No printing or postage costs
+- **Convenience**: Easy to manage and search digital confirmations
+- **Accessibility**: Available 24/7 from anywhere in the world
+
+## Alternative Electronic Logging
+
+I also use the following electronic logging services:
+- **LoTW**: [ARRL Logbook of the World](https://lotw.arrl.org/) - KL7KUY
 - **QRZ Logbook**: [KL7KUY on QRZ](https://www.qrz.com/db/KL7KUY)
 
-### Paper QSL (Direct)
-- **QSL via Direct**: Yes
-- **SASE**: Required for return postage
-- **QSL Manager**: N/A (Self-managed)
+## Questions?
 
-### QSL Bureau
-- **Bureau**: Yes
-- **Outgoing**: W7 (Utah Section)
-- **Incoming**: Via W7 Bureau
+If you have any questions about confirming our QSO or need assistance with eQSL.cc, please feel free to contact me at [kl7kuy@gmail.com](mailto:kl7kuy@gmail.com).
 
-## QSL Card Details
-- **Design**: Custom ham radio theme
-- **Size**: Standard (3.5" x 5.5")
-- **Features**:
-  - Full-color design
-  - Photo of local landmark
-  - Contact information
-  - QR code to this page
+---
 
-## QSL Policy
-- **Confirmation**: All QSOs confirmed
-- **Bureau**: Only for DX stations
-- **Direct**: Always welcome, SASE appreciated
-- **eQSL/LoTW**: Checked regularly
-
-## QSL Requests
-Please include:
-- Your call sign
-- Date and time (UTC) of QSO
-- Band and mode
-- SASE for return postage (if direct)
-
-## QSL Manager
-I manage my own QSL cards. Please send direct QSLs to:
-
-```
-Matthew Barnes - KL7KUY
-[Your Mailing Address]
-[City, State ZIP]
-USA
-```
-
-## QSL via Managers
-For DX stations, I use the following QSL managers:
-- **Europe**: [Manager's Call]
-- **Asia**: [Manager's Call]
-- **South America**: [Manager's Call]
-
-## Special QSL Cards
-- **First QSO**: Special card for first-time contacts
-- **SOTA/POTA**: Unique cards for activations
-- **Awards**: Available upon request
-
-## QSL Statistics
-- **Total QSOs**: [Number]
-- **Countries Worked**: [Number]
-- **States Worked**: [Number/50]
-- **Continents**: [Number/6]
-
-## QSL Gallery
-[Add photos of your QSL cards here]
-
-## QSL Tips
-- Always include your call sign clearly
-- Use standard size envelopes
-- Consider using a QSL manager for DX
-- Electronic QSL is fastest and most reliable
-- Be patient - paper QSLs can take time
+**73 and thanks for the QSO!**
