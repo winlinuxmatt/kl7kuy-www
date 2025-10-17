@@ -25,13 +25,19 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'winlinuxmatt', // Your GitHub username
   projectName: 'kl7kuy-www', // Your repo name
 
-  // Change broken links to warn instead of throw to prevent build failures
-  onBrokenLinks: 'warn',
+  // Handle broken links gracefully
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: 'warn',
+  onDuplicateRoutes: 'warn',
+
+  // Remove trailing slashes from URLs
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

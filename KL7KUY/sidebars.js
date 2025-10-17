@@ -15,10 +15,17 @@
  @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
  */
 const sidebars = {
-  // Main sidebar
-  docs: [
-    'about',
-    'ham_radio_projects',
+  main: [
+    {
+      type: 'doc',
+      id: 'index',
+      label: 'Home',
+    },
+    {
+      type: 'doc',
+      id: 'about',
+      label: 'About KL7KUY',
+    },
     {
       type: 'category',
       label: 'Station',
@@ -28,8 +35,21 @@ const sidebars = {
         'station/portable-setup',
       ],
     },
-    'qsl-info',
-    'contact',
+    {
+      type: 'doc',
+      id: 'ham_radio_projects',
+      label: 'Projects',
+    },
+    {
+      type: 'doc',
+      id: 'qsl-info',
+      label: 'QSL Info',
+    },
+    {
+      type: 'doc',
+      id: 'contact',
+      label: 'Contact',
+    },
   ],
 };
 
