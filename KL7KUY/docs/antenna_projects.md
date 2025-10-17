@@ -41,7 +41,7 @@ Technically, the Pockrus™ J-pole Joystick™ antenna is a dual-band (2 meters 
 - **Power Handling**: 1500W PEP
 - **Bandwidth**: Covers entire 2m and 70cm bands, compatible with GMRS frequencies
 
-**Note on Gain Measurements**: The gain values listed are measured over real earth conditions. When comparing antenna gains, it's important to understand that a dipole over earth at optimum height has approximately 8.5 dBi gain (not the often-cited 2.15 dB over isotropic). The J-pole's gain of ~2.6 dBi on 2m is comparable to a 1/4 wave ground plane antenna (2.69 dBi). For more technical details on J-pole gain and performance, see [W8JI's End-Fed Vertical and J-pole Analysis](https://www.w8ji.com/end-fed_vertical.htm) or [PDF](/pdf/End-fed-Vertical-and-J-pole.pdf).
+**Note on Gain Measurements**: The gain values listed are measured over real earth conditions. When comparing antenna gains, it's important to understand that a dipole over earth at optimum height has approximately 8.5 dBi gain (not the often-cited 2.15 dB over isotropic). The J-pole's gain of ~2.6 dBi on 2m is comparable to a 1/4 wave ground plane antenna (2.69 dBi). For more technical details on J-pole gain and performance, see [W8JI's End-Fed Vertical and J-pole Analysis](https://www.w8ji.com/end-fed_vertical.htm).
 
 #### Features
 - No radials or ground plane needed
@@ -58,7 +58,7 @@ Technically, the Pockrus™ J-pole Joystick™ antenna is a dual-band (2 meters 
   - [WE7OMG's Original Design](https://noji.com/hamradio/jpole.php)
   - [Open Stub J-Pole Project Details](https://nt1k.com/open-stub-j-pole-project-completed-many-times/)
   - [NT1K.com](https://nt1k.com/open-stub-j-pole-project-completed-many-times/)
-  - [How to install Pokrus J-Pole](https://noji.com/hamradio/pdf-ppt/noji/Noji-Article-Pockrus-J-Pole.pdf) or [PDF](/pdf/Noji-Article-Pockrus-J-Pole.pdf)
+  - [How to install Pokrus J-Pole](https://noji.com/hamradio/pdf-ppt/noji/Noji-Article-Pockrus-J-Pole.pdf)
 - **Images**: 
    ![WE7OMG Pockrus Open Stub J-Pole - Front View](/img/antenna_projects/DualBandJPole1-1-scaled.webp)
    ![WE7OMG Pockrus Open Stub J-Pole - Side View](/img/antenna_projects/DualBandJPole2-1-scaled.webp)
