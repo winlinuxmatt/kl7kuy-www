@@ -29,9 +29,8 @@ const config = {
   organizationName: 'winlinuxmatt',
   projectName: 'kl7kuy-www',
 
-  // Handle broken links gracefully
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  // Handle broken links and anchors
+  onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
 
@@ -39,6 +38,10 @@ const config = {
   markdown: {
     mermaid: false,
     format: 'mdx',
+    // Handle broken markdown links
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   // Remove trailing slashes from URLs
@@ -52,6 +55,7 @@ const config = {
     locales: ['en'],
   },
 
+  // Docusaurus presets
   presets: [
     [
       'classic',
@@ -61,6 +65,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs', // Serve docs under /docs
         },
+        blog: false, // Disable blog
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
