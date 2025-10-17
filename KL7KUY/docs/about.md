@@ -89,10 +89,9 @@ title: About KL7KUY
 - **ARRL Member**
 
 ## QSL Information
-- **eQSL**: KL7KUY
-- **LoTW**: KL7KUY
-- **QSL via**: Direct or Bureau
-- **QSL Manager**: eQSL.cc
+- **eQSL**: KL7KUY (Primary - eQSL only, no physical cards)
+- **QRZ Logbook**: KL7KUY
+- **Physical QSL Cards**: Not accepted or sent
 
 ## Contact Information
 - **Email**: [kl7kuy@gmail.com](mailto:kl7kuy@gmail.com)
